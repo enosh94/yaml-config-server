@@ -1,0 +1,35 @@
+server:
+  port: 8888
+  application:
+    name: InjectMapFromYAML
+    url: http://injectmapfromyaml.dev
+    description: How To Inject a map from a YAML File in Spring Boot
+  padgea:
+    broker:
+      name: James
+      age: 26
+      city: newyork
+      contact:
+        mobile: 077
+        fix: 047
+    agents:
+      - test2
+      - test3
+      - test4
+#  config:
+#    ips:
+#      - 10.10.10.10
+#      - 10.10.10.11
+#      - 10.10.10.12
+#      - 10.10.10.13
+#    filesystem:
+#      - /dev/root
+#      - /dev/md2
+#      - /dev/md4
+  users:
+    root:
+      username: root
+      password: rootpass
+    guest:
+      username: guest
+      password: guestpass
